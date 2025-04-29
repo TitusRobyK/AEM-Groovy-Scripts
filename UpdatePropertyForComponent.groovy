@@ -4,8 +4,7 @@ import org.apache.sling.api.resource.PersistenceException
 import org.apache.sling.api.resource.Resource
 import org.apache.sling.api.resource.ResourceResolver
 
-// ==== CONFIGURE ME ====
-// JCR path under which to search
+// ==== CONFIGURE ROOT PATH UNDER WHICH SERACH FOR COMPONENT IS INITIATED ====
 def rootPath           = "/content/wknd"
 
 // The sling:resourceType to match (e.g. "wknd/components/page")
